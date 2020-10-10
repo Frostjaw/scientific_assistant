@@ -1,3 +1,3 @@
 # scientific-assistant
  
-Google chrome extension for notes
+Google chrome extension for notess
