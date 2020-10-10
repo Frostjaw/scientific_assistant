@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_title": "Научный ассистент"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "A Vue.js web extension",
+   "icons": {
+      "128": "images/logo.png",
+      "48": "images/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiXq6FoHO8TSsbXH3dJe4MWLTA6ND76U/x37kzNLXsI3sUcwBpKZQ9cvyWnbfiUdUukK/M3lZidlbXL0m9LAQZfWpafYWO7mNhtd0HrIRQRwWnpEs7XiB4FNWuHEoFtSzrPNbzuHIwvFRcdUEznJQVd34109cFsR/8WUfumB5nnckXk79hy5VzaZy9UWGKnaRGI2mJY8m8fslD9b0cao4ikzVL2EvED0Anviyia4XwWf3Ws6GFq05xAg1fZJuQ2BQ5G7Cb2R+xpJ55ybfr7o2X4UIaPrcAZvSkoA7OgG/P3Q02NmCajW8MwSiZ3cc6GfHHGCOCwj2VojT8c3inaWV4wIDAQAB",
+   "manifest_version": 2,
+   "name": "Научный ассистент",
+   "oauth2": {
+      "client_id": "270215601557-mlcb4nb15i9352jl0kkp8vofura9fdjl.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive", "https://www.googleapis.com/auth/drive.appdata", "https://www.googleapis.com/auth/userinfo.email", "https://www.googleapis.com/auth/contacts.readonly" ]
+   },
+   "permissions": [ "identity" ],
+   "version": "1.0.3"
+}
